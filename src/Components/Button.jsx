@@ -28,6 +28,10 @@ const Button = ({ id, title, rightIcon, leftIcon, containerClass }) => {
 
 Button.propTypes = {
     containerClass: PropTypes.string,
+    title: PropTypes.string,
+    id: PropTypes.string,
+    rightIcon: PropTypes.string,
+    leftIcon: PropTypes.string,
   };
 
 export default Button;
